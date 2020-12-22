@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet"></title>
+<style>
+    
+.section-meal .long-copy{
+    margin-bottom: 30px;
+}
+
+
+.section-meals{
+    padding: 0;
+}
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meals-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+.meals-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: 400px;;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.meals-photo img:hover{
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+    </style>
+</head>
+<body>
+    <section class="section-meals">
+            <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meals-photo">
+                    <img src="resources/css/img/1.jpg" alt="Korean bibimbap with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meals-photo">
+                    <img src="resources/css/img/2.jpg" alt="Simple italian pizza with cherry tomatoes">
+                </figure>
+            </li>
+            <li>
+                <figure class="meals-photo">
+                    <img src="resources/css/img/3.jpg" alt="Chicken breast steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meals-photo">
+                    <img src="resources/css/img/4.jpg" alt="Autumn pumpkin soup">
+                </figure>
+            </li>
+            </ul>
+            <ul class="meals-showcase clearfix">
+            <li>
+                <figure class="meals-photo">
+                    <img src="resources/css/img/5.jpg" alt="Paleo beef steak with vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meals-photo">
+                    <img src="resources/css/img/6.jpg" alt="Healthy baguette with egg and vegetables">
+                </figure>
+            </li>
+            <li>
+                <figure class="meals-photo">
+                    <img src="resources/css/img/7.jpg" alt="Burger with cheddar and bacon">
+                </figure>
+            </li>
+            <li>
+                <figure class="meals-photo"> 
+                    <img src="resources/css/img/8.jpg" alt="Granola with cherries and strawberries">
+                </figure>
+            </li>
+            </ul>
+        </section>
+</body>
+</html>
